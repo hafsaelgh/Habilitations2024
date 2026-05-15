@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Habilitations2024.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -101,9 +102,14 @@
     <Compile Include="dal\Access.cs" />
     <Compile Include="dal\DeveloppeurAccess.cs" />
     <Compile Include="dal\ProfilAccess.cs" />
+    <Compile Include="model\Absence.cs" />
     <Compile Include="model\Admin.cs" />
     <Compile Include="model\Developpeur.cs" />
+    <Compile Include="model\Motif.cs" />
+    <Compile Include="model\Personnel.cs" />
     <Compile Include="model\Profil.cs" />
+    <Compile Include="model\Responsable.cs" />
+    <Compile Include="model\Service.cs" />
     <Compile Include="view\FrmHabilitations.cs">
       <SubType>Form</SubType>
     </Compile>

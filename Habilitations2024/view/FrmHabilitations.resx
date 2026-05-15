@@ -117,20 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="actualiser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>654, 316</value>
-  </data>
-  <data name="actualiser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 39</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="actualiser.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="actualiser.Text" xml:space="preserve">
-    <value>Actualiser</value>
-  </data>
   <data name="&gt;&gt;actualiser.Name" xml:space="preserve">
     <value>actualiser</value>
   </data>
@@ -142,18 +128,6 @@
   </data>
   <data name="&gt;&gt;actualiser.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="absences.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 316</value>
-  </data>
-  <data name="absences.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 39</value>
-  </data>
-  <data name="absences.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="absences.Text" xml:space="preserve">
-    <value>Absences</value>
   </data>
   <data name="&gt;&gt;absences.Name" xml:space="preserve">
     <value>absences</value>
@@ -167,18 +141,6 @@
   <data name="&gt;&gt;absences.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="supprimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 316</value>
-  </data>
-  <data name="supprimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 37</value>
-  </data>
-  <data name="supprimer.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="supprimer.Text" xml:space="preserve">
-    <value>Supprimer</value>
-  </data>
   <data name="&gt;&gt;supprimer.Name" xml:space="preserve">
     <value>supprimer</value>
   </data>
@@ -191,18 +153,6 @@
   <data name="&gt;&gt;supprimer.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="Modifier.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 316</value>
-  </data>
-  <data name="Modifier.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 37</value>
-  </data>
-  <data name="Modifier.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Modifier.Text" xml:space="preserve">
-    <value>Modifier</value>
-  </data>
   <data name="&gt;&gt;Modifier.Name" xml:space="preserve">
     <value>Modifier</value>
   </data>
@@ -214,6 +164,44 @@
   </data>
   <data name="&gt;&gt;Modifier.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.Name" xml:space="preserve">
+    <value>dgvPersonnel</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 378</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Les personnels</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="dgvPersonnel.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 25</value>
@@ -239,33 +227,105 @@
   <data name="&gt;&gt;dgvPersonnel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 23</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>868, 378</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Les personnels</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="Modifier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 316</value>
+  </data>
+  <data name="Modifier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 37</value>
+  </data>
+  <data name="Modifier.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Modifier.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="&gt;&gt;Modifier.Name" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="&gt;&gt;Modifier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Modifier.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Modifier.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="supprimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 316</value>
+  </data>
+  <data name="supprimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 37</value>
+  </data>
+  <data name="supprimer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="supprimer.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="&gt;&gt;supprimer.Name" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="&gt;&gt;supprimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supprimer.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;supprimer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="absences.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 316</value>
+  </data>
+  <data name="absences.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 39</value>
+  </data>
+  <data name="absences.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="absences.Text" xml:space="preserve">
+    <value>Absences</value>
+  </data>
+  <data name="&gt;&gt;absences.Name" xml:space="preserve">
+    <value>absences</value>
+  </data>
+  <data name="&gt;&gt;absences.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;absences.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;absences.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="actualiser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 316</value>
+  </data>
+  <data name="actualiser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 39</value>
+  </data>
+  <data name="actualiser.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="actualiser.Text" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="&gt;&gt;actualiser.Name" xml:space="preserve">
+    <value>actualiser</value>
+  </data>
+  <data name="&gt;&gt;actualiser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actualiser.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;actualiser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;cmbserv.Name" xml:space="preserve">
     <value>cmbserv</value>
   </data>
@@ -1153,6 +1213,9 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>
