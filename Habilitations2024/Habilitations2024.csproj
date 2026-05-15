@@ -130,6 +130,7 @@
     <EmbeddedResource Include="view\FrmHabilitations.resx">
       <DependentUpon>FrmHabilitations.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Help.zip" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
