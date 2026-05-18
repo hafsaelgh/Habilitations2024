@@ -11,17 +11,17 @@ using Habilitations2024.controller;
 
 namespace Habilitations2024.view
 {
-    public partial class textnom : Form
+    public partial class FrmHabilitations : Form
     {
         private FrmHabilitationsController controller;
-       
-          public textnom()
+
+        public FrmHabilitations()
           {   
            InitializeComponent();
            controller = new FrmHabilitationsController();
             dgvPersonnel.DataSource = 
                 controller.GetLesDeveloppeurs();
-            MessageBox.Show("Nombre de développeurs : " + controller.GetLesDeveloppeurs().Count);
+            
           }
             
         private void FrmHabilitations_Load(object sender, EventArgs e)
@@ -57,8 +57,10 @@ namespace Habilitations2024.view
 
         }
         private void actualiser_Click(object sender, EventArgs e)
+  
         {
-
+            dgvPersonnel.DataSource = null;
+            dgvPersonnel.DataSource = controller.GetLesDeveloppeurs();
         }
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {

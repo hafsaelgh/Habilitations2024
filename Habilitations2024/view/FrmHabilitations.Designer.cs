@@ -1,6 +1,6 @@
 ﻿namespace Habilitations2024.view
 {
-    partial class textnom
+    partial class FrmHabilitations
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(textnom));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHabilitations));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvPersonnel = new System.Windows.Forms.DataGridView();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
@@ -295,14 +295,14 @@
             resources.ApplyResources(this.cmbserv, "cmbserv");
             this.cmbserv.Name = "cmbserv";
             // 
-            // textnom
+            // FrmHabilitations
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.absence);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "textnom";
+            this.Name = "FrmHabilitations";
             this.Load += new System.EventHandler(this.FrmHabilitations_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersonnel)).EndInit();

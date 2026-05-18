@@ -129,6 +129,8 @@
     </Compile>
     <EmbeddedResource Include="view\FrmHabilitations.resx">
       <DependentUpon>FrmHabilitations.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FrmHabilitations1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Help.zip" />
     <None Include="packages.config" />
