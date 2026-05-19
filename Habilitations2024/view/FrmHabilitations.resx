@@ -117,14 +117,98 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;actualiser.Name" xml:space="preserve">
+    <value>actualiser</value>
+  </data>
+  <data name="&gt;&gt;actualiser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actualiser.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;actualiser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;absences.Name" xml:space="preserve">
+    <value>absences</value>
+  </data>
+  <data name="&gt;&gt;absences.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;absences.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;absences.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;supprimer.Name" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="&gt;&gt;supprimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supprimer.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;supprimer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Modifier.Name" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="&gt;&gt;Modifier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Modifier.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Modifier.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.Name" xml:space="preserve">
+    <value>dgvPersonnel</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dgvPersonnel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 378</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Les personnels</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="actualiser.Location" type="System.Drawing.Point, System.Drawing">
     <value>654, 316</value>
   </data>
   <data name="actualiser.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 39</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="actualiser.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -238,30 +322,6 @@
   </data>
   <data name="&gt;&gt;dgvPersonnel.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 23</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>868, 378</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Les personnels</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -611,6 +671,150 @@
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;cbmot.Name" xml:space="preserve">
+    <value>cbmot</value>
+  </data>
+  <data name="&gt;&gt;cbmot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbmot.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;cbmot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtfin.Name" xml:space="preserve">
+    <value>dtfin</value>
+  </data>
+  <data name="&gt;&gt;dtfin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtfin.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;dtfin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtdebut.Name" xml:space="preserve">
+    <value>dtdebut</value>
+  </data>
+  <data name="&gt;&gt;dtdebut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtdebut.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;dtdebut.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;supp.Name" xml:space="preserve">
+    <value>supp</value>
+  </data>
+  <data name="&gt;&gt;supp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supp.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;supp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;modfier.Name" xml:space="preserve">
+    <value>modfier</value>
+  </data>
+  <data name="&gt;&gt;modfier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modfier.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;modfier.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;motif.Name" xml:space="preserve">
+    <value>motif</value>
+  </data>
+  <data name="&gt;&gt;motif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;motif.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;motif.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Ajoutabsence.Name" xml:space="preserve">
+    <value>Ajoutabsence</value>
+  </data>
+  <data name="&gt;&gt;Ajoutabsence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ajoutabsence.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;Ajoutabsence.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;datefin.Name" xml:space="preserve">
+    <value>datefin</value>
+  </data>
+  <data name="&gt;&gt;datefin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datefin.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;datefin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvabsenc.Name" xml:space="preserve">
+    <value>dgvabsenc</value>
+  </data>
+  <data name="&gt;&gt;dgvabsenc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvabsenc.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;dgvabsenc.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;datedebut.Name" xml:space="preserve">
+    <value>datedebut</value>
+  </data>
+  <data name="&gt;&gt;datedebut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datedebut.Parent" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;datedebut.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="absence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 424</value>
+  </data>
+  <data name="absence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 284</value>
+  </data>
+  <data name="absence.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="absence.Text" xml:space="preserve">
+    <value>Les absences</value>
+  </data>
+  <data name="&gt;&gt;absence.Name" xml:space="preserve">
+    <value>absence</value>
+  </data>
+  <data name="&gt;&gt;absence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;absence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;absence.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="cbmot.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 131</value>
   </data>
@@ -851,30 +1055,9 @@
   <data name="&gt;&gt;datedebut.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="absence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>441, 424</value>
-  </data>
-  <data name="absence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 284</value>
-  </data>
-  <data name="absence.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="absence.Text" xml:space="preserve">
-    <value>Les absences</value>
-  </data>
-  <data name="&gt;&gt;absence.Name" xml:space="preserve">
-    <value>absence</value>
-  </data>
-  <data name="&gt;&gt;absence.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;absence.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;absence.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
+  <metadata name="pageSetupDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>214, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -896,8 +1079,14 @@
   <data name="&gt;&gt;printDocument1.Type" xml:space="preserve">
     <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="&gt;&gt;pageSetupDialog1.Name" xml:space="preserve">
+    <value>pageSetupDialog1</value>
+  </data>
+  <data name="&gt;&gt;pageSetupDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PageSetupDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>textnom</value>
+    <value>FrmHabilitations</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

@@ -24,5 +24,10 @@ namespace Habilitations2024.controller
         {
             return profilAccess.GetLesProfils();
         }
+        public void AjoutPersonnel ( string nom, string prenom, string tel, string mail, int idservice)
+        {
+            developpeurAccess.AjoutPersonnel(
+                nom, prenom, tel, mail, idservice);
+        }
     }
 }

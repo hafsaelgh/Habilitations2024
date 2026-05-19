@@ -74,5 +74,20 @@ namespace Habilitations2024.view
         {
 
         }
+
+        private void Enregistrer_Click(object sender, EventArgs e)
+        {
+            string nom = txtnom.Text;
+            string prenom = textpre.Text;
+            string tel = texttel.Text;
+            string mail = textmail.Text;
+
+            int idservice = cmbserv.SelectedIndex + 1;
+
+            controller.AjoutPersonnel(
+                nom, prenom, tel, mail, idservice);
+            dgvPersonnel.DataSource = null;
+            dgvPersonnel.DataSource = controller.GetLesDeveloppeurs();
+        }
     }
 }
